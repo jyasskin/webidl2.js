@@ -90,6 +90,17 @@
                     "type": "NaN"
                 },
                 "extAttrs": []
+            },
+            {
+                "type": "const",
+                "nullable": false,
+                "idlType": "unsigned long long",
+                "name": "too_big_for_double",
+                "value": {
+                    "type": "number",
+                    "value": 100000000000000000
+                },
+                "extAttrs": []
             }
         ],
         "inheritance": null,
